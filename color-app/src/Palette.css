@@ -1,6 +1,7 @@
 .Palette {
-  height: 100vh;
+  height: 90vh;
+  width: 200vh;
 }
 .Palette-colors {
-  height: 90%;
+  height: 100%;
 }

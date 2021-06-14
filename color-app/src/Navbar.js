@@ -11,7 +11,7 @@ class Navbar extends Component {
     return (
       <header className="Navbar">
         <div className="logo">
-          <a href="#">ReactcoLORPIcker</a>
+          <a href="#">ReactcOLORPIcker</a>
         </div>
         <div className="slider-container">
           <span>Level: {level}</span>

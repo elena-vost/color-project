@@ -5,3 +5,10 @@
 .Palette-colors {
   height: 100%;
 }
+.Palette-footer {
+  background-color: white;
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

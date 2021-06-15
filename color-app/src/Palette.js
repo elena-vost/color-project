@@ -6,15 +6,15 @@ import "./Palette.css";
 class Palette extends Component {
   constructor(props) {
     super(props);
-    this.state = { level: 500 };
+    this.state = { level: 500, format: "hex" };
     this.changeLevel = this.changeLevel.bind(this);
     this.changeFormat = this.changeFormat.bind(this);
   }
   changeLevel(level) {
     this.setState({ level });
   }
-  changeFormat(e) {
-    alert(e.target.value);
+  changeFormat(val) {
+    this.setState({ format: val });
   }
   render() {
     const { colors } = this.props.palette;

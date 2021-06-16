@@ -1,6 +1,12 @@
 import React from "react";
 import { withStyles } from "@material-ui/styles";
 
+const styles = {
+  main: {
+    backgroundColor: "purple",
+    border: "3px solid teal",
+  },
+};
 function MiniPalette() {
   return (
     <div>
@@ -9,4 +15,4 @@ function MiniPalette() {
   );
 }
 
-export default MiniPalette;
+export default withStyles(styles)(MiniPalette);

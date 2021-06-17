@@ -8,9 +8,11 @@ const styles = {
   },
 };
 function MiniPalette() {
+  const { classes } = props;
   return (
-    <div>
-      <h1>Mini Palette</h1>
+    <div className={classes.root}>
+      <div className={classes.colors}></div>
+      <h5 className={classes.title}></h5>
     </div>
   );
 }

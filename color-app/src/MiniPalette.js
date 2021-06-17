@@ -18,8 +18,18 @@ const styles = {
   },
   title: {
     display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    margin: "0",
+    color: "black",
+    paddingTop: "0.5rem",
+    fontSize: "1rem",
+    position: "relative",
   },
-  emoji: {},
+  emoji: {
+    marginLeft: "0.5rem",
+    fontSize: "1.5rem",
+  },
 };
 function MiniPalette() {
   const { classes, paletteName, emoji } = props;

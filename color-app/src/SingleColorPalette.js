@@ -21,13 +21,13 @@ class SingleColorPalette extends Component {
       <ColorBox
         key={color.id}
         name={color.name}
-        color={color.hex}
+        background={color.hex}
         showLink={false}
       />
     ));
     return (
-      <div>
-        <div>{colorBoxes}</div>
+      <div className="Palette">
+        <div className="Palette-colors">{colorBoxes}</div>
       </div>
     );
   }
